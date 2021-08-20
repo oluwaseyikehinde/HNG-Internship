@@ -5,6 +5,11 @@ body{
     background-color: #c4c4c4;
 }
 
+ .heading{
+   color: #35424a;
+   margin-right: 200px;
+}
+
 /*Global*/
 .headcontainer{
     /* width: 65%; */
@@ -104,16 +109,12 @@ body{
 }
 
 .img-fluid{
-    max-width: 10%;
+    max-width: 30%;
     height: auto;
     margin: 1px;
     margin-left: 100px;
   }
   
-
-/* #job{
-    
-} */
 
 .portfolio .links{
    display: grid;
@@ -121,4 +122,9 @@ body{
    grid-gap: 1rem;
    align-items: center;
    justify-content: center;
+}
+
+.border{
+    border-block-color: #303030;
+    border-block: 12px;
 }
